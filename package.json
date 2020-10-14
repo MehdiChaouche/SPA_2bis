@@ -1,0 +1,27 @@
+{
+  "name": "spa_2bis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "imageoptimizer": "node imageminScript.js",
+    "gulpimagemin": "node gulpimagemin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-rename": "^2.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "node": "^12.18.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-images-convert": "^1.1.1",
+    "imagemin-cli": "^6.0.0"
+  }
+}
